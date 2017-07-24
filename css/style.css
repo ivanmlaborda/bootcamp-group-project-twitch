@@ -1,0 +1,24 @@
+/* --------------------- navbarStyle --------------------------------*/
+.nav-style {
+  background-color: #414858;
+  border-radius: 0px;
+  border: 0px; }
+  .nav-style div div div a span {
+    color: #0E9DD9;
+    font-weight: bold;
+    font-size: 24px; }
+  .nav-style div div div a.navbar-brand {
+    color: #fff;
+    font-size: 24px; }
+
+/* ------------------ input style --------------*/
+input.form-control.inputNavStyle {
+  border: 2px solid #fff; }
+
+/* ------------------ button input style --------------*/
+button.navButtonStyle {
+  color: #fff;
+  background-color: #0E9DD9;
+  border: 2px solid #fff; }
+  button.navButtonStyle:hover {
+    background-color: #fff; }
