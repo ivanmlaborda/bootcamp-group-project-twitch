@@ -12,7 +12,18 @@
     font-size: 24px;
   }
 }
-
+/* ------------------ input style --------------*/
 input.form-control.inputNavStyle{
-  background-color: green;
+  border: 2px solid #fff;
+}
+
+/* ------------------ button input style --------------*/
+
+button.navButtonStyle{
+  color: #fff;
+  background-color: #0E9DD9;
+  border: 2px solid #fff;
+  &:hover{
+    background-color: #fff;
+  }
 }

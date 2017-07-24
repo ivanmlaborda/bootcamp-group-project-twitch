@@ -11,6 +11,14 @@
     color: #fff;
     font-size: 24px; }
 
+/* ------------------ input style --------------*/
 input.form-control.inputNavStyle {
-  border: 2px solid #0E9DD9;
-  }
+  border: 2px solid #fff; }
+
+/* ------------------ button input style --------------*/
+button.navButtonStyle {
+  color: #fff;
+  background-color: #0E9DD9;
+  border: 2px solid #fff; }
+  button.navButtonStyle:hover {
+    background-color: #fff; }
