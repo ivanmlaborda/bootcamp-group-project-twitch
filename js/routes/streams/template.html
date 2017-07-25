@@ -1,1 +1,6 @@
 <p> Estamos cargando el primer template que es getStreams</p>
+
+<div ng-repeat="stream in streams">
+  <h3>{{stream.game}}</h3>
+  <img ng-src="{{stream.preview.medium}}" alt="">
+</div>
