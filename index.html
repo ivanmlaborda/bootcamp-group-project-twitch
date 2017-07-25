@@ -41,52 +41,24 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a href="#">Start Bootstrap</a>
+          <a href="#">Home</a>
         </li>
         <li>
-          <a href="#!/getGames">Games</a>
+          <a href="#!/games">Games</a>
         </li>
         <li>
-          <a href="#!/getStreams">getStreams</a>
+          <a href="#!/streams">Streams</a>
         </li>
         <li>
-          <a href="#!/getTopVideos">getTopVideos</a>
-        </li>
-        <li>
-          <a href="#">Events</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
+          <a href="#!/top-videos">Top Videos</a>
         </li>
       </ul>
     </div>
     <!-- /#sidebar-wrapper -->
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1>Simple Sidebar</h1>
-            <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-          </div>
-        </div>
-      </div>
-      <!-- /#page-content-wrapper -->
-    </div>
+
     <ng-view></ng-view>
 
     {{ 4 + 7 }}
-
-    <!-- /#wrapper -->
-    <!-- /leftMenu -->
 
     <!-- Angular modules -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
@@ -104,16 +76,16 @@
 
     <!-- script dataServices.js -->
     <script type="text/javascript" src="js/services/dataServices.js"></script>
-
+    <!-- script routes -->
     <!-- script getGames/controller.js -->
-    <script type="text/javascript" src="js/getGames/controller.js"></script>
-    <script type="text/javascript" src="js/getGames/index.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/routes/games/controller.js"></script>
+    <script type="text/javascript" src="js/routes/games/index.js"></script>
     <!-- script getStreams/controller.js -->
-    <script type="text/javascript" src="js/getStreams/controller.js"></script>
-    <script type="text/javascript" src="js/getStreams/index.js"></script>
+    <script type="text/javascript" src="js/routes/streams/controller.js"></script>
+    <script type="text/javascript" src="js/routes/streams/index.js"></script>
     <!-- script getTopVideos/controller.js -->
-    <script type="text/javascript" src="js/getTopVideos/controller.js"></script>
-    <script type="text/javascript" src="js/getTopVideos/index.js"></script>
+    <script type="text/javascript" src="js/routes/top-videos/controller.js"></script>
+    <script type="text/javascript" src="js/routes/top-videos/index.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>

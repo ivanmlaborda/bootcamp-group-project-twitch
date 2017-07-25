@@ -1,8 +1,8 @@
 angular.module('skyStream')
 .config(function ($routeProvider) {
   $routeProvider
-  .when('/getTopVideos', {
-    templateUrl: 'js/getTopVideos/template.html',
+  .when('/top-videos', {
+    templateUrl: 'js/routes/top-videos/template.html',
     controller: 'getTopVideosController'
   })
 })
