@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="skyStream">
 
 <head>
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-default nav-style">
+  <nav class="navbarPosition navbar navbar-default nav-style">
     <div class="container-fluid">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -85,11 +85,18 @@
       </div>
       <!-- /#page-content-wrapper -->
     </div>
+    <div ng-controller="getGamesController">
+
+    </div>
 
     {{ 4 + 7 }}
 
     <!-- /#wrapper -->
     <!-- /leftMenu -->
+
+    <!-- Angular modules -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
 
     <!-- jQuery cdn -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -97,9 +104,6 @@
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Angular modules -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
 
     <!-- script app.js -->
     <script type="text/javascript" src="app.js"></script>
