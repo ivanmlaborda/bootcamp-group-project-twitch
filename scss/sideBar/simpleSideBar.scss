@@ -1,3 +1,5 @@
+@import 'variables/setVariables';
+
 body {
    overflow-x: hidden;
 }
@@ -24,7 +26,7 @@ body {
    height: 100%;
    margin-left: -250px;
    overflow-y: auto;
-   background: #000;
+   background: $sideBar-blue;
    -webkit-transition: all 0.5s ease;
    -moz-transition: all 0.5s ease;
    -o-transition: all 0.5s ease;
@@ -65,7 +67,8 @@ body {
 .sidebar-nav li a {
    display: block;
    text-decoration: none;
-   color: #999999;
+   color: #fff;
+   font-weight: bold;
 }
 
 .sidebar-nav li a:hover {
@@ -86,7 +89,7 @@ body {
 }
 
 .sidebar-nav > .sidebar-brand a {
-   color: #999999;
+   color: #fff;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
