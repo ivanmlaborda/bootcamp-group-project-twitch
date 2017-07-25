@@ -4,7 +4,7 @@ angular.module('skyStream')
   console.log('controller inside getGames working...')
 
   DataService.getGames()
-  .then(function(oData) {  
+  .then(function(oData) {
     console.log(oData)
     console.log('running promise of getGames controller...')
   })
