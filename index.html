@@ -44,7 +44,7 @@
           <a href="#">Start Bootstrap</a>
         </li>
         <li>
-          <a href="#">Dashboard</a>
+          <a href="#!/getGames">getGames</a>
         </li>
         <li>
           <a href="#">Shortcuts</a>
@@ -81,12 +81,7 @@
       </div>
       <!-- /#page-content-wrapper -->
     </div>
-    <div ng-controller="getGamesController">
-    </div>
-    <div ng-controller="getStreamsController">
-    </div>
-    <div ng-controller="getTopVideosController">
-    </div>
+    <ng-view></ng-view>
 
     {{ 4 + 7 }}
 
@@ -112,6 +107,7 @@
 
     <!-- script getGames/controller.js -->
     <script type="text/javascript" src="js/getGames/controller.js"></script>
+    <script type="text/javascript" src="js/getGames/index.js" charset="utf-8"></script>
     <!-- script getGames/controller.js -->
     <script type="text/javascript" src="js/getStreams/controller.js"></script>
     <!-- script getGames/controller.js -->
