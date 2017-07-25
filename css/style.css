@@ -147,13 +147,22 @@ body {
     position: relative;
     margin-right: 0; } }
 /* --------------------- variables --------------------------------*/
-/* --------------------- variables --------------------------------*/
+/* --------------------- topVideos --------------------------------*/
 .top-videos-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
 .top-videos-item {
+  margin: 25px; }
+
+/* --------------------- games --------------------------------*/
+.games-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.game-item {
   margin: 25px; }
 
 /*# sourceMappingURL=style.css.map */
