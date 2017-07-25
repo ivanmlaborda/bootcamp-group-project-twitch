@@ -1,2 +1,6 @@
 /* --------------------- navbarStyle --------------------------------*/
-@import '_navbarStyle'
+@import 'navbar/navbarStyle';
+/* --------------------- simpleSideBar --------------------------------*/
+@import 'sideBar/simpleSideBar';
+/* --------------------- variables --------------------------------*/
+@import 'variables/setVariables';
