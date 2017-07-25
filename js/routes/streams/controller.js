@@ -4,6 +4,8 @@ angular.module('skyStream')
 
   DataService.getStreams()
   .then(function (oData) {
+    $scope.streams = oData.data.streams
+    console.log($scope.streams)
     console.log(oData)
     console.log('running promise of getStreams controller...')
   })
