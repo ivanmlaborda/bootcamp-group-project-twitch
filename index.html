@@ -11,23 +11,17 @@
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Custom CSS -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
 <body>
+  <!-- navbar -->
   <nav class="navbar navbar-default nav-style">
     <div class="container-fluid">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Sky<span>Stream</span></a>
+          <button href="#menu-toggle" class="btn btn-default navbar-left customNavbarBtn" id="menu-toggle">Toggle Menu</button>
+          <p class="navbar-brand">Sky<span>Stream</span></p>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -85,25 +79,40 @@
           </div>
         </div>
       </div>
+      <!-- /#page-content-wrapper -->
     </div>
-    <!-- /#page-content-wrapper -->
-  </div>
-  <!-- /#wrapper -->
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- script app.js -->
-  <script src="app.js" type="text/javascript"></script>
-  <!-- script dataServices.js -->
-  <script src="js/dataServices.js"></script>
-  <!-- Menu Toggle Script -->
-  <script>
-  $("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-  });
-  </script>
-</body>
 
-</html>
+    {{ 4 + 7 }}
+
+    <!-- /#wrapper -->
+    <!-- /leftMenu -->
+
+    <!-- jQuery cdn -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Angular modules -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
+
+    <!-- script app.js -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- script dataServices.js -->
+    <script type="text/javascript" src="js/services/dataServices.js"></script>
+
+    <!-- script getGames/controller.js -->
+    <script type="text/javascript" src="js/getGames/controller.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+  </body>
+
+  </html>
