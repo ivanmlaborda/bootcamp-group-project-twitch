@@ -3,8 +3,8 @@ angular.module('skyStream')
   console.log('controller inside getTopVideos working...')
 
   DataService.getTopVideos()
-  .then(functigit puon (oData) {
-    console.lgit puog(oData)
+  .then(function (oData) {
+    console.log(oData)
     console.log('running promise of getTopVideos controller...')
   })
 })
