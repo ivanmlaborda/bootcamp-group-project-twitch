@@ -1,10 +1,27 @@
 angular.module('skyStream')
-.controller('getStreamsController', function ($scope, DataService) {
+.controller('getStreamsController', function ($scope, DataService, $sce) {
   console.log('controller inside getStreams working...')
 
   DataService.getStreams()
   .then(function (oData) {
+    let url = 'https://player.twitch.tv/?channel=' + oData.data.streams["0"].channel.name
+    $scope.streamVideosName = $sce.trustAsResourceUrl(url)
     console.log(oData)
-    console.log('running promise of getStreams controller...')
+    console.log('running promise of streamVideos controller...')
   })
 })
+
+/* */
+
+// angular.module('skyStream')
+// .controller('getStreamsController', function ($scope, DataService, $sce) {
+//   console.log('controller inside getStreams working...')
+//
+//   DataService.getStreams()
+//   .then(function (oData) {
+//     let url = 'https://player.twitch.tv/?channel=' + oData.data.streams["0"].channel.name
+//     $scope.streamVideosName = $sce.trustAsResourceUrl(url)
+//     console.log(oData)
+//     console.log('running promise of streamVideos controller...')
+//   })
+// })
