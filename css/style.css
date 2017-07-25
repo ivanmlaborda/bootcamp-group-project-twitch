@@ -148,5 +148,9 @@ body {
     margin-right: 0; } }
 /* --------------------- variables --------------------------------*/
 /* --------------------- variables --------------------------------*/
+.top-videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */

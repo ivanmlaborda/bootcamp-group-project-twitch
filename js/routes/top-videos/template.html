@@ -1,11 +1,7 @@
-<p> Estamos cargando el primer template que es getTopVideos</p>
-<div ng-repeat="video in videos | limitTo:20" class="top-videos-grid">
-<h4>{{video.game}}</h4>
-  <iframe
-   ng-src="{{video._id}}" 
-   frameborder="0" 
-   height="300px" 
-   width="400px" 
-   allowfullscreen="true">
-    ></iframe>
+<h2>TOP VIDEOS</h2>
+<div class="top-videos-grid">
+  <div ng-repeat="video in videos | limitTo:6" class="top-videos-item">
+    <h4>{{video.game}}</h4>
+    <iframe ng-src="{{video._id}}" frameborder="0" height="300px" width="400px" allowfullscreen="true"></iframe>
+  </div>
 </div>
