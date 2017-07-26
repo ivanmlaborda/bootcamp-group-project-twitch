@@ -1,13 +1,13 @@
-BODY {
+body {
   background: #282931;
   -webkit-font-smoothing: antialiased;
   font-family: 'Varela Round', sans-serif;
   height: 100%;
-  
+
   .text{
-  text-align: center;  
+  text-align: center;
   }
-  
+
 
   #particles-js>div>div:nth-child(2)>div.footer {
     float: right;
@@ -42,10 +42,12 @@ BODY {
 
   #particles-js>div:nth-child(1)>div.row.top>div>h1 {
     font-size: 20px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
   }
   #particles-js>div:nth-child(1)>div.row.top>div>div {
-    margin-left: 200px;
+    display: flex;
+    justify-content: center;
     font-size: 70px;
   }
 
@@ -166,7 +168,7 @@ BODY {
 
   #search {
     border: 1px;
-    height: 46px; 
+    height: 46px;
   }
 
   .search-btn {
@@ -181,5 +183,3 @@ BODY {
     height: 46px;
   }
 }
-
-

@@ -69,7 +69,7 @@ button.navButtonStyle:hover {
 }
 
 /* --------------------- home --------------------------------*/
-BODY {
+body {
   background: #282931;
   -webkit-font-smoothing: antialiased;
   font-family: 'Varela Round', sans-serif;
@@ -81,92 +81,94 @@ BODY {
   /* Larger than desktop */
   /* Larger than Desktop HD */
 }
-BODY .text {
+body .text {
   text-align: center;
 }
-BODY #particles-js > div > div:nth-child(2) > div.footer {
+body #particles-js > div > div:nth-child(2) > div.footer {
   float: right;
 }
-BODY #particles-js > div:nth-child(1) > div:nth-child(2) {
+body #particles-js > div:nth-child(1) > div:nth-child(2) {
   margin-top: 0px;
   margin-left: 20px;
 }
-BODY #particles-js > div.footer {
+body #particles-js > div.footer {
   float: right;
   margin-right: 40px;
 }
-BODY canvas {
+body canvas {
   height: 100vh;
   z-index: -10;
   position: fixed;
   top: 0px;
 }
-BODY a {
+body a {
   color: #bbbbc4;
   text-decoration: none;
   -webkit-transition: .5s;
   transition: .5s;
 }
-BODY a:hover {
+body a:hover {
   color: #fc3565;
 }
-BODY #particles-js > div:nth-child(1) > div.row.top > div > h1 {
+body #particles-js > div:nth-child(1) > div.row.top > div > h1 {
   font-size: 20px;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
 }
-BODY #particles-js > div:nth-child(1) > div.row.top > div > div {
-  margin-left: 200px;
+body #particles-js > div:nth-child(1) > div.row.top > div > div {
+  display: flex;
+  justify-content: center;
   font-size: 70px;
 }
-BODY #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
   color: #fc3565;
 }
-BODY #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > a > h1:hover {
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > a > h1:hover {
   color: #fc3565;
 }
-BODY #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > a > h1:hover {
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > a > h1:hover {
   color: #fc3565;
 }
-BODY h1 {
+body h1 {
   color: #fc3565;
   padding-bottom: 0px;
   margin-bottom: 1%;
 }
-BODY h2 {
+body h2 {
   color: #555560;
   font-size: 3rem;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
 }
-BODY .logo {
+body .logo {
   font-family: 'Monoton', cursive;
   color: white;
   font-size: 8rem;
 }
-BODY .top {
+body .top {
   padding-bottom: 5rem;
 }
-BODY .pulled ul li {
+body .pulled ul li {
   list-style: none;
   margin-right: 2rem;
   font-size: 1.8rem;
 }
-BODY .pulled h1 {
+body .pulled h1 {
   color: white;
   font-size: 3rem;
 }
-BODY .pulled ul li span {
+body .pulled ul li span {
   font-size: 1.2rem;
 }
-BODY .footer {
+body .footer {
   padding-top: 5rem;
 }
-BODY .footer p {
+body .footer p {
   color: white;
   font-size: 1.2rem;
 }
-BODY .visit {
+body .visit {
   color: white;
   font-size: 12px;
   background: #32333a;
@@ -176,11 +178,11 @@ BODY .visit {
   position: fixed;
   right: 20px;
 }
-BODY #particles-js {
+body #particles-js {
   margin-top: 122px;
 }
 @media (min-width: 1200px) {
-  BODY h1 {
+  body h1 {
     font-size: 4rem;
   }
 }
