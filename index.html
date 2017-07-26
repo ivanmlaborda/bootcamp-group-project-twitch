@@ -20,8 +20,8 @@
     <div class="container-fluid">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <p class="navbar-brand navbar-custom">Sky<span>Stream</span></p>
+        <div class="navbar-header navbar-custom">
+          <p class="navbar-brand">Sky<span>Stream</span></p>
           <ul>
             <li>
               <a href="#!">Home</a>
@@ -53,6 +53,9 @@
   <div id="wrapper">
     <ng-view></ng-view>
     ngtest{{ 4 + 7 }}
+    <div class="footer">
+      <p>Made by <a href="https://github.com/qiete/">Gerard Carrbonell</a>, <a href="https://github.com/ivanmlaborda"> Ivan Martinez Laborda </a> & <a href="https://github.com/ddmarin94"> David Marin</a></p>
+    </div>
     <!-- Angular modules -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
@@ -77,6 +80,9 @@
     <!-- script getTopVideos/controller.js -->
     <script type="text/javascript" src="js/routes/top-videos/controller.js"></script>
     <script type="text/javascript" src="js/routes/top-videos/index.js"></script>
+    <!-- Particles animation -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script src="js/assets/particles-script.js"></script>
 </body>
 
 </html>

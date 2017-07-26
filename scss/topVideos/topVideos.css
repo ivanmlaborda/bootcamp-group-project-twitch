@@ -1,0 +1,13 @@
+.top-videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.top-videos-item {
+  margin: 25px;
+  background-color: #363636;
+  border: 1px solid #F23711; }
+  .top-videos-item h4, .top-videos-item h3 {
+    color: white; }
+
+/*# sourceMappingURL=topVideos.css.map */
