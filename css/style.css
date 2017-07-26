@@ -47,7 +47,14 @@ button.navButtonStyle {
 
 .navbar-custom ul {
   display: flex;
-  list-style: none; }
+  list-style: none;
+  margin-top: 10px; }
+  .navbar-custom ul li {
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold; }
+  .navbar-custom ul li a {
+    color: #fff; }
 
 /* --------------------- variables --------------------------------*/
 /* --------------------- topVideos --------------------------------*/
