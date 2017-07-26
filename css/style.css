@@ -44,6 +44,7 @@ button.navButtonStyle {
     color: #0E9DD9;
     border: 2px solid #0E9DD9;
     font-weight: bold; }
+<<<<<<< HEAD
 
 .navbar-custom ul {
   display: flex;
@@ -56,6 +57,8 @@ button.navButtonStyle {
   .navbar-custom ul li a {
     color: #fff; }
 
+=======
+>>>>>>> 83d9a832e376f85c25917c4c25c408845c26bae7
 /* --------------------- variables --------------------------------*/
 /* --------------------- topVideos --------------------------------*/
 .top-videos-grid {
