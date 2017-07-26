@@ -154,7 +154,11 @@ body {
   justify-content: center; }
 
 .top-videos-item {
-  margin: 25px; }
+  margin: 25px;
+  background-color: #363636;
+  border: 1px solid #F23711; }
+  .top-videos-item h4, .top-videos-item h3 {
+    color: white; }
 
 /* --------------------- Stream --------------------------------*/
 .videos-display {
@@ -278,3 +282,5 @@ h2 {
 @media (min-width: 1200px) {
   h1 {
     font-size: 4rem; } }
+
+/*# sourceMappingURL=style.css.map */
