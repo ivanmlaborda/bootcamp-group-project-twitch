@@ -2,40 +2,49 @@
 .nav-style {
   background-color: #414858;
   border-radius: 0px;
-  border: 0px; }
-  .nav-style div div p span {
-    color: #0E9DD9;
-    font-weight: bold;
-    font-size: 24px; }
-  .nav-style div div p.navbar-brand {
-    color: #fff;
-    font-size: 24px;
-    margin-top: 2px; }
-  .nav-style div div p.navbar-brand:hover {
-    color: #fff; }
-  .nav-style li {
-    margin-right: 10px;
-    margin-top: 3px;
-    font-size: 24px;
-    font-weight: bold; }
-  .nav-style .nav li a {
-    color: #fff; }
+  border: 0px;
+}
+.nav-style div div p span {
+  color: #0E9DD9;
+  font-weight: bold;
+  font-size: 24px;
+}
+.nav-style div div p.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 2px;
+}
+.nav-style div div p.navbar-brand:hover {
+  color: #fff;
+}
+.nav-style li {
+  margin-right: 10px;
+  margin-top: 3px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-style .nav li a {
+  color: #fff;
+}
 
 /* ------------------ input style --------------*/
 input.form-control.inputNavStyle {
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+}
 
 /* ------------------ button input style --------------*/
 button.navButtonStyle {
   color: #fff;
   background-color: #0E9DD9;
   border: 2px solid #fff;
-  font-weight: bold; }
-  button.navButtonStyle:hover {
-    background-color: #fff;
-    color: #0E9DD9;
-    border: 2px solid #0E9DD9;
-    font-weight: bold; }
+  font-weight: bold;
+}
+button.navButtonStyle:hover {
+  background-color: #fff;
+  color: #0E9DD9;
+  border: 2px solid #0E9DD9;
+  font-weight: bold;
+}
 
 /* ------------------ custom button effect --------------*/
 .btn.btn-default.navbar-left.customNavbarBtn {
@@ -45,12 +54,14 @@ button.navButtonStyle {
   color: #fff;
   background-color: #0E9DD9;
   border: 2px solid #fff;
-  font-weight: bold; }
-  .btn.btn-default.navbar-left.customNavbarBtn:hover {
-    background-color: #fff;
-    color: #0E9DD9;
-    border: 2px solid #0E9DD9;
-    font-weight: bold; }
+  font-weight: bold;
+}
+.btn.btn-default.navbar-left.customNavbarBtn:hover {
+  background-color: #fff;
+  color: #0E9DD9;
+  border: 2px solid #0E9DD9;
+  font-weight: bold;
+}
 
 /* --------------------- home --------------------------------*/
 body {
@@ -63,123 +74,163 @@ body {
   /* Larger than phablet */
   /* Larger than tablet */
   /* Larger than desktop */
-  /* Larger than Desktop HD */ }
-  body .text {
-    text-align: center; }
-  body #particles-js > div > div:nth-child(2) > div.footer {
-    float: right; }
-  body #particles-js > div:nth-child(1) > div:nth-child(2) {
-    margin-top: 0px;
-    margin-left: 20px; }
-  body #particles-js > div.footer {
-    float: right;
-    margin-right: 40px; }
-  body canvas {
-    height: 100vh;
-    z-index: -10;
-    position: fixed;
-    top: 0px; }
-  body a {
-    color: #bbbbc4;
-    text-decoration: none;
-    -webkit-transition: .5s;
-    transition: .5s; }
-  body a:hover {
-    color: #fc3565; }
-  body #particles-js > div:nth-child(1) > div.row.top > div > h1 {
-    font-size: 20px;
-    display: flex;
-    justify-content: center; }
-  body #particles-js > div:nth-child(1) > div.row.top > div > div {
-    display: flex;
-    justify-content: center;
-    font-size: 70px; }
-  body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
-    color: #fc3565; }
-  body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > a > h1:hover {
-    color: #fc3565; }
-  body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > a > h1:hover {
-    color: #fc3565; }
+  /* Larger than Desktop HD */
+}
+body .text {
+  text-align: center;
+}
+body #particles-js > div > div:nth-child(2) > div.footer {
+  float: right;
+}
+body #particles-js > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 0px;
+  margin-left: 20px;
+}
+body #particles-js > div.footer {
+  float: right;
+  margin-right: 40px;
+}
+body canvas {
+  height: 100vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px;
+}
+body a {
+  color: #bbbbc4;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+body a:hover {
+  color: #fc3565;
+}
+body #particles-js > div:nth-child(1) > div.row.top > div > h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+body #particles-js > div:nth-child(1) > div.row.top > div > div {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
+  color: #fc3565;
+}
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > a > h1:hover {
+  color: #fc3565;
+}
+body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > a > h1:hover {
+  color: #fc3565;
+}
+body h1 {
+  color: #fc3565;
+  padding-bottom: 0px;
+  margin-bottom: 1%;
+}
+body h2 {
+  color: #555560;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+body .logo {
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-size: 8rem;
+}
+body .top {
+  padding-bottom: 5rem;
+}
+body .pulled ul li {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+}
+body .pulled h1 {
+  color: white;
+  font-size: 3rem;
+}
+body .pulled ul li span {
+  font-size: 1.2rem;
+}
+body .footer {
+  padding-top: 5rem;
+}
+body .footer p {
+  color: white;
+  font-size: 1.2rem;
+}
+body .visit {
+  color: white;
+  font-size: 12px;
+  background: #32333a;
+  width: 146px;
+  padding: 6px;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px;
+}
+body #particles-js {
+  margin-top: 122px;
+}
+@media (min-width: 1200px) {
   body h1 {
-    color: #fc3565;
-    padding-bottom: 0px;
-    margin-bottom: 1%; }
-  body h2 {
-    color: #555560;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px; }
-  body .logo {
-    font-family: 'Monoton', cursive;
-    color: white;
-    font-size: 8rem; }
-  body .top {
-    padding-bottom: 5rem; }
-  body .pulled ul li {
-    list-style: none;
-    margin-right: 2rem;
-    font-size: 1.8rem; }
-  body .pulled h1 {
-    color: white;
-    font-size: 3rem; }
-  body .pulled ul li span {
-    font-size: 1.2rem; }
-  body .footer {
-    padding-top: 5rem; }
-  body .footer p {
-    color: white;
-    font-size: 1.2rem; }
-  body .visit {
-    color: white;
-    font-size: 12px;
-    background: #32333a;
-    width: 146px;
-    padding: 6px;
-    border-radius: 10px;
-    position: fixed;
-    right: 20px; }
-  body #particles-js {
-    margin-top: 122px; }
-  @media (min-width: 1200px) {
-    body h1 {
-      font-size: 4rem; } }
+    font-size: 4rem;
+  }
+}
 
 .search-bar-container .well {
-  background-color: #ffffee; }
+  background-color: #ffffee;
+}
 .search-bar-container .search-form {
-  border-radius: 30px 0 0 30px; }
+  border-radius: 30px 0 0 30px;
+}
 .search-bar-container .input-group-btn {
   max-width: 38px;
-  width: 50px; }
+  width: 50px;
+}
 .search-bar-container #search {
   border: 1px;
-  height: 46px; }
+  height: 46px;
+}
 .search-bar-container .search-btn {
   cursor: pointer;
   border-radius: 0 30px 30px 0;
   background-color: #fff;
-  color: #669; }
+  color: #669;
+}
 .search-bar-container #search-this {
   width: 100px;
-  height: 46px; }
+  height: 46px;
+}
+.search-bar-container #radio-buttons {
+  color: white;
+  font-size: 25px;
+}
 
 /* --------------------- variables --------------------------------*/
 /* --------------------- topVideos --------------------------------*/
 .top-videos-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .top-videos-item {
   margin: 25px;
   background-color: #363636;
-  border: 1px solid #F23711; }
-  .top-videos-item h4, .top-videos-item h3 {
-    color: white; }
+  border: 1px solid #F23711;
+}
+.top-videos-item h4, .top-videos-item h3 {
+  color: white;
+}
 
 iframe {
-  min-height: 300px; }
+  min-height: 300px;
+}
 
 /* --------------------- Stream --------------------------------*/
 .videos-display {
@@ -187,29 +238,37 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   margin: 25px;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 h3 {
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 h4 {
-  font-size: 16px; }
-  h4 span {
-    font-weight: normal; }
+  font-size: 16px;
+}
+h4 span {
+  font-weight: normal;
+}
 
 h2 {
   text-align: center;
   margin-top: 0px;
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 iframe {
-  min-height: 300px; }
+  min-height: 300px;
+}
 
 /* --------------------- games --------------------------------*/
 .games-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .game-item {
-  margin: 25px; }
+  margin: 25px;
+}

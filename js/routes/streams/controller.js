@@ -4,10 +4,9 @@ angular.module('skyStream')
 
   DataService.getStreams()
   .then(function (oData) {
-
-oData.data.streams.forEach(function(key){
-    let url = 'https://player.twitch.tv/?channel=' + key.channel.display_name + '&autoplay=false'
-    key.channel.display_name = $sce.trustAsResourceUrl(url)
+    oData.data.streams.forEach(function (key) {
+      let url = 'https://player.twitch.tv/?channel=' + key.channel.display_name + '&autoplay=false'
+      key.channel.display_name = $sce.trustAsResourceUrl(url)
     })
     $scope.names = oData.data.streams
     console.log('running promise of streamVideos controller...')
@@ -15,8 +14,7 @@ oData.data.streams.forEach(function(key){
   })
 })
 
-//filter languages
-
+// filter languages
 
 /* ------------------------ This is working --------------------------------------------- */
 

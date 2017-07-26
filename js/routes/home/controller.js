@@ -1,22 +1,16 @@
 angular.module('skyStream')
-  .controller('searchController', function ($scope, $rootScope/*, DataService */, $location) {
+  .controller('searchController', function ($scope, $rootScope, $location) {
     console.log('controller inside home working...')
     $scope.getQuery = function () {
       var query = $scope.query
-      console.log(query)
-
-      $location.path('/search/games/results/' + query)
-
-      // $rootScope.$broadcast('queryReady', { query: query })
+      var option = $scope.queryRadio.radio
+      console.log(option)
+      if (option === 'games') {
+        $location.path('/search/games/results/' + query)
+      } else if (option === 'streams') {
+        $location.path('/search/streams/results/' + query)
+      } else {
+        $location.path('/search/games/results/' + query)
+      }
     }
-
-    // $scope.$on('queryReady', function (e, data) {
-    //   console.log('I listened!')
-    //   DataService.searchGames(data.query)
-    //     .then(function (oResponse) {
-    //       // $scope.gameImgUrl = oResponse.data.avatar_url
-    //       // $scope.gameName = oResponse.data.name
-    //       console.log(oResponse.data)
-    //     })
-    // })
   })

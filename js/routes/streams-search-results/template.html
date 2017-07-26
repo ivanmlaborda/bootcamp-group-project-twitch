@@ -1,0 +1,12 @@
+<h2>STREAMS SEARCH RESULTS</h2>
+
+<div class="videos-display">
+  <div ng-repeat="name in names | limitTo:6" class="top-videos-item thumbnail">
+    <!-- <img ng-src="{{name.preview.large}}" alt="image"> -->
+    <iframe ng-src="{{name.channel.vUrl}}" frameborder="0"  allowfullscreen="true"></iframe>
+    <div class="caption">
+      <h4>{{name.channel.name}} <span>is playing</span></h4>
+      <h3>{{name.channel.game}}</h3>
+    </div>
+  </div>
+</div>
