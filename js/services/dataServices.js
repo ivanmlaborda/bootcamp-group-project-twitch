@@ -23,7 +23,7 @@ angular.module('skyStream')
   }
 
   function searchGames(gameName){
-    var url = '//https://api.twitch.tv/kraken/search/games?query=' + gameName + '&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&type=suggest'
+    var url = 'https://api.twitch.tv/kraken/search/games?query=' + gameName + '&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&type=suggest'
     return $http.get(url)
   }
 
