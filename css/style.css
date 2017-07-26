@@ -45,6 +45,10 @@ button.navButtonStyle {
     border: 2px solid #0E9DD9;
     font-weight: bold; }
 
+.navbar-custom ul {
+  display: flex;
+  list-style: none; }
+
 /* --------------------- variables --------------------------------*/
 /* --------------------- topVideos --------------------------------*/
 .top-videos-grid {
