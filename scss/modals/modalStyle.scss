@@ -1,0 +1,27 @@
+.game-modal{
+  margin-top: 150px;
+}
+
+.modal-body iframe{
+  width: 100%;
+}
+
+.modal-header{
+  background-color: $background-blue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.modal-body{
+  background-color: $background-blue;
+}
+
+.modal-footer{
+    background-color: $background-blue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div .modal-content{
+  background: transparent;
+}
