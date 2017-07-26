@@ -13,6 +13,7 @@
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
   <!-- navbar -->
   <nav class=" navbar-default nav-style">
@@ -22,6 +23,9 @@
         <div class="navbar-header">
           <p class="navbar-brand">Sky<span>Stream</span></p>
           <ul>
+            <li>
+              <a href="#!">Home</a>
+            </li>
             <li>
               <a href="#!/games">Games</a>
             </li>
@@ -47,31 +51,23 @@
       <!-- /.container-fluid -->
   </nav>
   <div id="wrapper">
-
     <ng-view></ng-view>
-
     ngtest{{ 4 + 7 }}
-
     <!-- Angular modules -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.min.js"></script>
-
     <!-- jQuery cdn -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
     <!-- script app.js -->
     <script type="text/javascript" src="app.js"></script>
-
     <!-- script dataServices.js -->
     <script type="text/javascript" src="js/services/dataServices.js"></script>
     <!-- script routes -->
     <!-- script home/controller.js -->
-    <script type="text/javascript" src="/js/routes/home%20page/js/controller.js"></script>
-    <script type="text/javascript" src="/js/routes/home%20page/js/index2.js"></script>
+    <script type="text/javascript" src="/js/routes/home/controller.js"></script>
+    <script type="text/javascript" src="/js/routes/home/index.js"></script>
     <!-- script getGames/controller.js -->
     <script type="text/javascript" src="js/routes/games/controller.js"></script>
     <script type="text/javascript" src="js/routes/games/index.js"></script>
@@ -81,14 +77,6 @@
     <!-- script getTopVideos/controller.js -->
     <script type="text/javascript" src="js/routes/top-videos/controller.js"></script>
     <script type="text/javascript" src="js/routes/top-videos/index.js"></script>
+</body>
 
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-  </body>
-
-  </html>
+</html>
