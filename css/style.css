@@ -81,6 +81,9 @@ BODY {
   /* Larger than desktop */
   /* Larger than Desktop HD */
 }
+BODY .text {
+  text-align: center;
+}
 BODY #particles-js > div > div:nth-child(2) > div.footer {
   float: right;
 }
@@ -188,15 +191,13 @@ BODY #particles-js {
 .search-bar-container .search-form {
   border-radius: 30px 0 0 30px;
 }
-.search-bar-container .input-group {
-  width: 100%;
-}
 .search-bar-container .input-group-btn {
   max-width: 38px;
   width: 50px;
 }
 .search-bar-container #search {
   border: 1px;
+  height: 46px;
 }
 .search-bar-container .search-btn {
   cursor: pointer;
@@ -206,6 +207,7 @@ BODY #particles-js {
 }
 .search-bar-container #search-this {
   width: 100px;
+  height: 46px;
 }
 
 /* --------------------- variables --------------------------------*/
