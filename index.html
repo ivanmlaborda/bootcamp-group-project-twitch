@@ -24,36 +24,42 @@
         <div class="container-fluid">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header navbar-custom">
-                    <p class="navbar-brand">Sky<span>Stream</span></p>
-                    <ul>
-                        <li>
-                            <a href="#!">Home</a>
-                        </li>
-                        <li>
-                            <a href="#!/games">Games</a>
-                        </li>
-                        <li>
-                            <a href="#!/streams">Streams</a>
-                        </li>
-                        <li>
-                            <a href="#!/top-videos">Top Videos</a>
-                        </li>
-                    </ul>
+                <div class="row">
+                <div class="navbar-header navbar-custom col-md-12">
+                    
+                    <div class="col-md-2 col-md-offset-3">
+                        <p class="navbar-brand">Sky<span>Stream</span></p>
+                    </div>
+                        <div class="col-md-7">
+                            <ul>
+                            <li>
+                                <a href="#!">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!/games">Games</a>
+                            </li>
+                            <li>
+                                <a href="#!/streams">Streams</a>
+                            </li>
+                            <li>
+                                <a href="#!/top-videos">Top Videos</a>
+                            </li>
+                        </ul>
+                        </div>
+                        
+                    </div>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-->
     </nav>
-  <div id="particles-js">
-
-    <div id="wrapper">
-
-        <ng-view></ng-view>
-        {{ 4 + 7 }}
-        <div class="footer">
-            <p>Made by <a href="https://github.com/qiete/">Gerard Carrbonell</a>, <a href="https://github.com/ivanmlaborda"> Ivan Martinez Laborda </a> & <a href="https://github.com/ddmarin94"> David Marin</a></p>
-        </div>
+    <div id="particles-js">
+        <div id="wrapper">
+            <ng-view></ng-view>
+            {{ 4 + 7 }}
+            <div class="footer">
+                <p>Made by <a href="https://github.com/qiete/">Gerard Carrbonell</a>, <a href="https://github.com/ivanmlaborda"> Ivan Martinez Laborda </a> & <a href="https://github.com/ddmarin94"> David Marin</a></p>
+            </div>
         </div>
         <!-- Angular modules -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
