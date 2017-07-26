@@ -20,45 +20,49 @@
 
 <body>
     <!-- navbar -->
-    <nav class=" navbar-default nav-style">
-        <div class="container-fluid">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="row">
-                <div class="navbar-header navbar-custom col-md-12">
-
-                    <div class="col-md-2 col-md-offset-3">
-                        <p class="navbar-brand">Sky<span>Stream</span></p>
-                    </div>
-                        <div class="col-md-7">
-                            <ul>
-                            <li>
-                                <a href="#!">Home</a>
-                            </li>
-                            <li>
-                                <a href="#!/games">Games</a>
-                            </li>
-                            <li>
-                                <a href="#!/streams">Streams</a>
-                            </li>
-                            <li>
-                                <a href="#!/top-videos">Top Videos</a>
-                            </li>
-                        </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- /.navbar-collapse -->
+    <nav class="navbar navbar-default nav-style">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand">Sky<span>Stream</span></p>
             </div>
-            <!-- /.container-->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#!">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!/games">Games</a>
+                    </li>
+                    <li>
+                        <a href="#!/streams">Streams</a>
+                    </li>
+                    <li>
+                        <a href="#!/top-videos">Top Videos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+    
+    
+
     <div id="particles-js">
         <div id="wrapper">
             <ng-view></ng-view>
             {{ 4 + 7 }}
             <div class="footer">
                 <p>Made by <a href="https://github.com/qiete/">Gerard Carrbonell</a>, <a href="https://github.com/ivanmlaborda"> Ivan Martinez Laborda </a> & <a href="https://github.com/ddmarin94"> David Marin</a></p>
+
+
+                <p>POWERED BY <a href="https://www.twitch.tv/">TWITCH</a></p>
             </div>
         </div>
         <!-- Angular modules -->
@@ -74,8 +78,8 @@
         <script type="text/javascript" src="js/services/dataServices.js"></script>
         <!-- script routes -->
         <!-- script home/controller.js -->
-        <script type="text/javascript" src="/js/routes/home/controller.js"></script>
-        <script type="text/javascript" src="/js/routes/home/index.js"></script>
+        <script type="text/javascript" src="js/routes/home/controller.js"></script>
+        <script type="text/javascript" src="js/routes/home/index.js"></script>
         <!-- script getGames/controller.js -->
         <script type="text/javascript" src="js/routes/games/controller.js"></script>
         <script type="text/javascript" src="js/routes/games/index.js"></script>

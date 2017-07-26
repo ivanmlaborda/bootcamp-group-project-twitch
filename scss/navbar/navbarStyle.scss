@@ -4,17 +4,26 @@
   background-color: $background-blue;
   border-radius: 0px;
   border: 0px;
-  div div div p span{
+  div div p span{
     color: $main-blue;
     font-weight: bold;
     font-size: 24px;
   }
-  div div div p.navbar-brand{
+  div div p.navbar-brand{
     color: #fff;
     font-size: 24px;
     margin-top: 2px;
   }
-  div div div p.navbar-brand:hover{
+  div div p.navbar-brand:hover{
+    color: #fff;
+  }
+  li{
+    margin-right: 10px;
+    margin-top: 3px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .nav li a{
     color: #fff;
   }
 }
@@ -54,16 +63,18 @@ button.navButtonStyle{
     font-weight: bold;
   }
 }
-.navbar-custom ul{
-  display: flex;
-  list-style: none;
-  margin-top: 10px;
-  li{
-    margin-right: 10px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  li a{
-    color: #fff;
-  }
-}
+
+// se puede borrar, bootstrap ya lo utiliza: 
+// .navbar-custom ul{
+//   display: flex;
+//   list-style: none;
+//   margin-top: 10px;
+//   li{
+//     margin-right: 10px;
+//     font-size: 24px;
+//     font-weight: bold;
+//   }
+//   li a{
+//     color: #fff;
+//   }
+// }
