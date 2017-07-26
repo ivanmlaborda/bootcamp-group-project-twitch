@@ -1,18 +1,19 @@
 angular.module('skyStream')
-  .controller('searchController', function ($scope, $rootScope) {
+  .controller('searchController', function ($scope, $rootScope, DataService) {
     console.log('controller inside home working...')
     $scope.getQuery = function () {
       var query = $scope.query
+      console.log(query)
       $rootScope.$broadcast('queryReady', { query: query })
     }
-  })
 
-  .controller('detailsController', function ($scope, DataService) {
     $scope.$on('queryReady', function (e, data) {
+      console.log('I listened!')
       DataService.searchGames(data.query)
-          .then(function (oResponse) {
-            $scope.gameImgUrl = oResponse.data.avatar_url
-            $scope.gameName = oResponse.data.name
-          })
+        .then(function (oResponse) {
+          // $scope.gameImgUrl = oResponse.data.avatar_url
+          // $scope.gameName = oResponse.data.name
+          console.log(oResponse.data)
+        })
     })
   })
