@@ -1,11 +1,18 @@
 angular.module('skyStream')
-.controller('searchController', function ($scope, DataService) {
-  console.log('controller inside home working...')
+  .controller('searchController', function ($scope, $rootScope) {
+    console.log('controller inside home working...')
+    $scope.getQuery = function () {
+      var query = $scope.query
+      $rootScope.$broadcast('queryReady', { query: query })
+    }
+  })
 
-  // DataService.searchGames()
-  // .then(function (oData) {
-  //   $scope.gamesImgs = oData.data.top
-  //   console.log(oData)
-  //   console.log('running promise of getGames controller...')
-  // })
-})
+  .controller('detailsController', function ($scope, DataService) {
+    $scope.$on('queryReady', function (e, data) {
+      DataService.searchGames(data.query)
+          .then(function (oResponse) {
+            $scope.gameImgUrl = oResponse.data.avatar_url
+            $scope.gameName = oResponse.data.name
+          })
+    })
+  })
