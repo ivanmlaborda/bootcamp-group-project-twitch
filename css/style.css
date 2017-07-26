@@ -1,41 +1,280 @@
-/*
-Error: Invalid CSS after "...deos/topVideos'": expected "{", was ";"
-        on line 9 of /Users/davidmaringomez/Documents/SkylabCoders/Bootcamp/skyStream/scss/styles.scss
+/* --------------------- navbarStyle --------------------------------*/
+.nav-style {
+  background-color: #414858;
+  border-radius: 0px;
+  border: 0px; }
+  .nav-style div div div p span {
+    color: #0E9DD9;
+    font-weight: bold;
+    font-size: 24px; }
+  .nav-style div div div p.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 2px; }
+  .nav-style div div div p.navbar-brand:hover {
+    color: #fff; }
 
-4: @import 'sideBar/simpleSideBar';
-5: /* --------------------- variables --------------------------------*\/
-6: @import 'variables/setVariables';
-7: <<<<<<< HEAD
-8: /* --------------------- variables --------------------------------*\/
-9: @import 'topVideos/topVideos';
-10: /* --------------------- variables --------------------------------*\/
-11: @import 'streamVideos/streamDisplay';
-12: =======
-13: /* --------------------- topVideos --------------------------------*\/
-14: @import 'topVideos/topVideos';
+/* ------------------ input style --------------*/
+input.form-control.inputNavStyle {
+  border: 2px solid #fff; }
 
-Backtrace:
-/Users/davidmaringomez/Documents/SkylabCoders/Bootcamp/skyStream/scss/styles.scss:9
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:281:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:400:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...deos/topVideos'\": expected \"{\", was \";\"\A         on line 9 of /Users/davidmaringomez/Documents/SkylabCoders/Bootcamp/skyStream/scss/styles.scss\A \A 4: @import 'sideBar/simpleSideBar';\A 5: /* --------------------- variables --------------------------------*/\A 6: @import 'variables/setVariables';\A 7: <<<<<<< HEAD\A 8: /* --------------------- variables --------------------------------*/\A 9: @import 'topVideos/topVideos';\A 10: /* --------------------- variables --------------------------------*/\A 11: @import 'streamVideos/streamDisplay';\A 12: =======\A 13: /* --------------------- topVideos --------------------------------*/\A 14: @import 'topVideos/topVideos';"; }
+/* ------------------ button input style --------------*/
+button.navButtonStyle {
+  color: #fff;
+  background-color: #0E9DD9;
+  border: 2px solid #fff;
+  font-weight: bold; }
+  button.navButtonStyle:hover {
+    background-color: #fff;
+    color: #0E9DD9;
+    border: 2px solid #0E9DD9;
+    font-weight: bold; }
+
+/* ------------------ custom button effect --------------*/
+.btn.btn-default.navbar-left.customNavbarBtn {
+  margin-top: 9px;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #0E9DD9;
+  border: 2px solid #fff;
+  font-weight: bold; }
+  .btn.btn-default.navbar-left.customNavbarBtn:hover {
+    background-color: #fff;
+    color: #0E9DD9;
+    border: 2px solid #0E9DD9;
+    font-weight: bold; }
+
+/* --------------------- simpleSideBar --------------------------------*/
+body {
+  overflow-x: hidden; }
+
+/* Toggle Styles */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+#wrapper.toggled {
+  padding-left: 250px; }
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #2F3542;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px; }
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px; }
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px; }
+
+/* Sidebar Styles */
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px; }
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold; }
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2); }
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none; }
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px; }
+
+.sidebar-nav > .sidebar-brand a {
+  color: #fff; }
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none; }
+
+@media (min-width: 768px) {
+  #wrapper {
+    padding-left: 0; }
+
+  #wrapper.toggled {
+    padding-left: 250px; }
+
+  #sidebar-wrapper {
+    width: 0; }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px; }
+
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative; }
+
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0; } }
+/* --------------------- variables --------------------------------*/
+/* --------------------- topVideos --------------------------------*/
+.top-videos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.top-videos-item {
+  margin: 25px; }
+
+/* --------------------- Stream --------------------------------*/
+.videos-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+  justify-content: space-around; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+  h4 span {
+    font-weight: normal; }
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px; }
+
+/* --------------------- games --------------------------------*/
+.games-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.game-item {
+  margin: 25px; }
+
+/* --------------------- home-page --------------------------------*/
+BODY {
+  background: #282931;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Varela Round', sans-serif;
+  height: 100%; }
+
+canvas {
+  height: 100vh;
+  z-index: -10;
+  position: fixed;
+  top: 0px; }
+
+a {
+  color: #bbbbc4;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+a:hover {
+  color: #fc3565; }
+
+#particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
+  color: #fc3565; }
+
+#particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > a > h1:hover {
+  color: #fc3565; }
+
+#particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > a > h1:hover {
+  color: #fc3565; }
+
+h1 {
+  color: #fc3565;
+  padding-bottom: 0px;
+  margin-bottom: 1%; }
+
+h2 {
+  color: #555560;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px; }
+
+.logo {
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-size: 8rem; }
+
+.top {
+  padding-bottom: 5rem; }
+
+.pulled ul li {
+  list-style: none;
+  margin-right: 2rem;
+  font-size: 1.8rem; }
+
+.pulled h1 {
+  color: white;
+  font-size: 3rem; }
+
+.pulled ul li span {
+  font-size: 1.2rem; }
+
+.footer {
+  padding-top: 5rem; }
+
+.footer p {
+  color: white;
+  font-size: 1.2rem; }
+
+.visit {
+  color: white;
+  font-size: 12px;
+  background: #32333a;
+  width: 146px;
+  padding: 6px;
+  border-radius: 10px;
+  position: fixed;
+  right: 20px; }
+
+#particles-js {
+  margin-top: 122px; }
+
+/* Mobile first queries */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem; } }

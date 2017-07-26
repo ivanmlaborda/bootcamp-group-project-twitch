@@ -4,14 +4,11 @@
 @import 'sideBar/simpleSideBar';
 /* --------------------- variables --------------------------------*/
 @import 'variables/setVariables';
-<<<<<<< HEAD
-/* --------------------- variables --------------------------------*/
-@import 'topVideos/topVideos';
-/* --------------------- variables --------------------------------*/
-@import 'streamVideos/streamDisplay';
-=======
 /* --------------------- topVideos --------------------------------*/
 @import 'topVideos/topVideos';
+/* --------------------- Stream --------------------------------*/
+@import 'streamVideos/streamDisplay';
 /* --------------------- games --------------------------------*/
 @import 'games/games';
->>>>>>> 4d1b45f14b35cd291de665db789bfa9a322d036a
+/* --------------------- home-page --------------------------------*/
+@import 'home-page/homePage';
