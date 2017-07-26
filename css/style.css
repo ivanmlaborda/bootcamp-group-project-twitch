@@ -3,15 +3,22 @@
   background-color: #414858;
   border-radius: 0px;
   border: 0px; }
-  .nav-style div div div p span {
+  .nav-style div div p span {
     color: #0E9DD9;
     font-weight: bold;
     font-size: 24px; }
-  .nav-style div div div p.navbar-brand {
+  .nav-style div div p.navbar-brand {
     color: #fff;
     font-size: 24px;
     margin-top: 2px; }
-  .nav-style div div div p.navbar-brand:hover {
+  .nav-style div div p.navbar-brand:hover {
+    color: #fff; }
+  .nav-style li {
+    margin-right: 10px;
+    margin-top: 3px;
+    font-size: 24px;
+    font-weight: bold; }
+  .nav-style .nav li a {
     color: #fff; }
 
 /* ------------------ input style --------------*/
@@ -44,17 +51,6 @@ button.navButtonStyle {
     color: #0E9DD9;
     border: 2px solid #0E9DD9;
     font-weight: bold; }
-
-.navbar-custom ul {
-  display: flex;
-  list-style: none;
-  margin-top: 10px; }
-  .navbar-custom ul li {
-    margin-right: 10px;
-    font-size: 24px;
-    font-weight: bold; }
-  .navbar-custom ul li a {
-    color: #fff; }
 
 /* --------------------- home --------------------------------*/
 BODY {
