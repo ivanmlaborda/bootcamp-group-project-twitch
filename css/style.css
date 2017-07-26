@@ -152,5 +152,25 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 25px; 
-}
+  margin: 25px; }
+
+/* --------------------- variables --------------------------------*/
+.videos-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px;
+  justify-content: space-around; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+  h4 span {
+    font-weight: normal; }
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px; }

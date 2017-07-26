@@ -11,9 +11,12 @@ oData.data.streams.forEach(function(key){
     })
     $scope.names = oData.data.streams
     console.log('running promise of streamVideos controller...')
-    console.log($scope.names)
+    console.log(oData)
   })
 })
+
+//filter languages
+
 
 /* ------------------------ This is working --------------------------------------------- */
 

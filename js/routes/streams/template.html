@@ -1,9 +1,11 @@
-<p> Estamos cargando el primer template que es getStreams</p>
-
-<h2>STREAMS</h2>
-<div class="top-videos-grid">
-  <div ng-repeat="name in names | limitTo:6" class="top-videos-item">
-    <h4>{{name.channel.name}} is playing {{name.channel.game}}</h4>
+<h2>Live Streams</h2>
+<div class="videos-display">
+  <div ng-repeat="name in names | limitTo:6" class="top-videos-item thumbnail">
+    <!-- <img ng-src="{{name.preview.large}}" alt="image"> -->
     <iframe ng-src="{{name.channel.display_name}}" frameborder="0" height="300px" width="400px" allowfullscreen="true"></iframe>
+    <div class="caption">
+      <h4>{{name.channel.name}} <span>is playing</span></h4>
+      <h3>{{name.channel.game}}</h3>
+    </div>
   </div>
 </div>
