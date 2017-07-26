@@ -7,6 +7,7 @@ angular.module('skyStream')
         .then(function (oResponse) {
           // $scope.gameImgUrl = oResponse.data.avatar_url
           // $scope.gameName = oResponse.data.name
-          console.log(oResponse.data)
+          console.log(oResponse.data.games)
+          $scope.games = oResponse.data.games
         })
   })
