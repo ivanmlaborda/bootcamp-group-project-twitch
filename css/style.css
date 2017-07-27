@@ -1,3 +1,11 @@
+/* --------------------- common --------------------------------*/
+.section-header {
+  margin: 60px 0 30px 0; }
+  .section-header h2 {
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: #F6F6F6; }
+
 /* --------------------- navbarStyle --------------------------------*/
 .nav-style {
   background-color: #414858;
@@ -180,7 +188,8 @@ body {
 .top-videos-item {
   margin: 25px;
   background-color: #363636;
-  border: 1px solid #F23711; }
+  border: 1px solid #F23711;
+  padding: 1px; }
   .top-videos-item h4, .top-videos-item h3 {
     color: white; }
 
@@ -212,13 +221,18 @@ iframe {
   min-height: 300px; }
 
 /* --------------------- games --------------------------------*/
-.games-grid {
+.games-container .games-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.game-item {
-  margin: 25px; }
+.games-container .game-item {
+  margin: 25px;
+  background-color: #363636;
+  border: 1px solid #F23711;
+  padding: 1px; }
+  .games-container .game-item h4,
+  .games-container .game-item h3 {
+    color: white; }
 
 /* --------------------- modal --------------------------------*/
 .game-modal {
@@ -265,3 +279,13 @@ div .modal-content {
 @media (min-width: 320px) and (max-width: 768px) {
   .videos-display img {
     width: 280px; } }
+/* --------------------- queriesResponsive --------------------------------*/
+#toTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: #000;
+  background-color: white;
+  border: 2.5px solid #0E9DD9; }

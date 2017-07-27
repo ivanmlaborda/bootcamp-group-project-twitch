@@ -11,13 +11,13 @@ angular.module('skyStream')
   }
 
   function getStreams () {
-    var url = 'https://api.twitch.tv/kraken/streams?limit=100&offset=25&stream_type=live&client_id=t0bygtv4nwlrifc9sigricr063nnt1x'
+    var url = 'https://api.twitch.tv/kraken/streams?&offset=25&stream_type=live&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&limit=24'
     return $http.get(url)
     console.log('callingAPI')
   }
 
   function getTopVideos () {
-    var url = 'https://api.twitch.tv/kraken/videos/top?limit=100&client_id=t0bygtv4nwlrifc9sigricr063nnt1x'
+    var url = 'https://api.twitch.tv/kraken/videos/top?&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&limit=24'
     return $http.get(url)
     console.log('callingAPI')
   }
@@ -28,7 +28,7 @@ angular.module('skyStream')
   }
 
   function searchStreams (query) {
-    var url = 'https://api.twitch.tv/kraken/search/streams?query=' + query + '&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&type=suggest'
+    var url = 'https://api.twitch.tv/kraken/search/streams?query=' + query + '&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&type=suggest&limit=24'
     return $http.get(url)
   }
 
