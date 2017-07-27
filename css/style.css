@@ -16,12 +16,11 @@
 }
 .nav-style div div p span {
   color: #0E9DD9;
-  font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
 }
 .nav-style div div p.navbar-brand {
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 2px;
 }
 .nav-style div div p.navbar-brand:hover {
@@ -89,16 +88,14 @@ body {
 body .text {
   text-align: center;
 }
-body #particles-js > div > div:nth-child(2) > div.footer {
-  float: right;
+body .footer {
+  display: flow-root;
+  padding-top: 140px;
+  text-align: center;
 }
 body #particles-js > div:nth-child(1) > div:nth-child(2) {
   margin-top: 0px;
   margin-left: 20px;
-}
-body #particles-js > div.footer {
-  float: right;
-  margin-right: 40px;
 }
 body canvas {
   height: 100vh;
@@ -119,10 +116,10 @@ body #particles-js > div:nth-child(1) > div.row.top > div > h1 {
   font-size: 20px;
   display: flex;
   justify-content: center;
+  padding: 0px 30px;
 }
 body #particles-js > div:nth-child(1) > div.row.top > div > div {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 70px;
 }
 body #particles-js > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > a > h1:hover {
@@ -150,6 +147,9 @@ body .logo {
   font-family: 'Monoton', cursive;
   color: white;
   font-size: 8rem;
+}
+body .logo span {
+  color: #0E9DD9;
 }
 body .top {
   padding-bottom: 5rem;
@@ -215,6 +215,10 @@ body #particles-js {
 .search-bar-container #search-this {
   width: 100px;
   height: 46px;
+}
+.search-bar-container .center-input {
+  display: flex;
+  justify-content: center;
 }
 .search-bar-container #radio-buttons {
   color: white;
