@@ -166,6 +166,9 @@ body {
 .search-bar-container .center-input {
   display: flex;
   justify-content: center; }
+.search-bar-container #radio-buttons {
+  color: white;
+  font-size: 25px; }
 
 /* --------------------- variables --------------------------------*/
 /* --------------------- topVideos --------------------------------*/
