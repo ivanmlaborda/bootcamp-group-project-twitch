@@ -7,24 +7,23 @@
           <h1 class="text">The web where you can see all the streams , games and top videos in real-time , free of cost.</h1>
         </div>
       </div>
-      <div class="hello text-center search-bar-container">
+      <div class="hello text-center search-container">
         <div class="row">
           <div id="content">
-            <form class='form-search center-input'>
-              <div class="input-group">
-                <input type='text' id='search' class="form-control search-form" placeholder="Search for a game" ng-model="query">
-                <span class="input-group-addon">
-                  <input type="radio" name="radio" value="games"  ng-checked="true" ng-model="queryRadio">
-                  <i class="fa fa-gamepad"></i>
-                  <input type="radio" name="radio" value="streams" ng-model="queryRadio">
-                  <i class="fa fa-video-camera"></i>
-                </span>
-                <span class="input-group-btn" style="width:100px">
-                  <button id="search-this" type="button" class="pull-right btn btn-default search-btn" ng-click="getQuery(queryRadio)">
-                    <i class="glyphicon glyphicon-search"></i>
+            <div class="container col-sm-offset-2 col-sm-8">
+              <div class="jumbotron">
+              <h3>Choose and option and search!</h3>
+                <select class="form-control query-select" ng-model="querySelect">
+                  <option disabled="disabled">Choose games or streams</option>
+                  <option selected="selected" value="games">Games<i class="fa fa-gamepad"></i></option>
+                  <option value="streams">Streams<i class="fa fa-video-camera"></i></option>
+                </select>
+                <form>
+                  <input ng-model="query" type="text" class="form-control input-query" placeholder="Type you search!">
+                  <button ng-click="getQuery()" class="btn-block form-control button-query" type="button"><i class="glyphicon glyphicon-search"></i>
                   </button>
-                </div><!-- /input-group -->
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>

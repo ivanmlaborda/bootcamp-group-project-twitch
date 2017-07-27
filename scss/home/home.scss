@@ -149,50 +149,32 @@ body {
   }
 }
 
-.search-bar-container {
+.search-container {
 
-  .well {
-    background-color: #ffffee
-  }
-
-  .search-form {
-    border-radius: 30px 0 0 30px;
-  }
-
-  // .input-group {
-  //   width: 100%;
-  // }
-
-  .input-group-btn {
-    max-width: 38px;
-    width: 50px;
-  }
-
-  #search {
-    border: 1px;
-    height: 46px;
-  }
-
-  .search-btn {
-    cursor: pointer;
-    border-radius: 0 30px 30px 0;
-    background-color: #fff;
-    color: #669;
-  }
-
-  #search-this {
-    width: 100px;
-    height: 46px;
-  }
-
-
-  .center-input{
-    display: flex;
-    justify-content: center;
-  }
-
-  #radio-buttons {
+  .jumbotron {
+    margin-top: 25px;
+    background-color: rgba(14, 157, 217, 0.2); 
+    h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
     color: white;
-    font-size: 25px;
+    }
+    .query-select {
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: #FC3565;
+    
+      
+    }
+    .input-query {
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    }
+    .button-query {
+    margin-bottom: 25px;
+    background-color:transparent;
+    color: white;
+    }
   }
 }
