@@ -1,10 +1,9 @@
 <h2>Top Videos</h2>
 <div class="videos-display">
   <div ng-repeat="video in videos | limitTo:6" class="top-videos-item thumbnail">
-    <iframe ng-src="{{video._id}}" frameborder="0" height="300px" width="400px" allowfullscreen="true"></iframe>
+    <iframe ng-src="{{video._id}}" frameborder="0" allowfullscreen="true"></iframe>
     <div class="caption">
       <h4>{{video.game}}</h4>
     </div>
   </div>
 </div>
-

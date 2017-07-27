@@ -178,6 +178,9 @@ body {
   .top-videos-item h4, .top-videos-item h3 {
     color: white; }
 
+iframe {
+  min-height: 300px; }
+
 /* --------------------- Stream --------------------------------*/
 .videos-display {
   display: flex;
@@ -198,6 +201,9 @@ h2 {
   text-align: center;
   margin-top: 0px;
   padding-top: 20px; }
+
+iframe {
+  min-height: 300px; }
 
 /* --------------------- games --------------------------------*/
 .games-grid {
