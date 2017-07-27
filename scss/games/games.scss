@@ -7,5 +7,14 @@
 
   .game-item {
     margin: 25px;
+    background-color: #363636;
+    border: 1px solid #F23711;
+    padding: 1px;
+    
+
+    h4,
+    h3 {
+      color: white;
+    }
   }
 }

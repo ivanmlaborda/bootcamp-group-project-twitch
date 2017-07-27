@@ -3,8 +3,8 @@
     <h2>{{section}}</h2>
   </div>
   <div class="games-grid">
-    <div ng-repeat="game in games | limitTo:30" class="game-item">
-      <h4>{{game.name}}</h4>
+    <div ng-repeat="game in games | limitTo:36" class="game-item">
+      <h4>{{game.name | limitTo:25}}</h4>
       <img ng-src="{{game.box.large}}">
     </div>
   </div>
