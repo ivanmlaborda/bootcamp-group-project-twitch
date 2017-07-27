@@ -3,13 +3,13 @@
     <h2>{{section}}</h2>
   </div>
   <div class="videos-display">
-    <div ng-repeat="name in names | limitTo:20" class="top-videos-item thumbnail">
+    <div ng-repeat="name in names | limitTo:6" class="top-videos-item thumbnail">
       <!-- <img ng-src="{{name.preview.large}}" alt="image"> -->
       <div class="caption">
         <img ng-src="{{name.preview.large}}" alt="film-image"></img>
-        <h4>{{name.game}} <span>is playing</span></h4>
+        <h4>{{name.channel.name}} <span>is playing</span></h4>
         <h3>{{name.channel.game}}</h3>
-        <button type="button" class="btn btn-primary btn-lg form-control modal-button" data-toggle="modal" data-target="#{{ name._id }}">Video</button>
+        <button type="button" class="btn form-control modal-button" data-toggle="modal" data-target="#{{ name._id }}">Video</button>
       </div>
       <!-- Modal -->
       <div class="container modal fade game-modal" id="{{name._id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>

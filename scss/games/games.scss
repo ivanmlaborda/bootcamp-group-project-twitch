@@ -7,11 +7,13 @@
 
   .game-item {
     margin: 25px;
-    background-color: #363636;
-    border: 1px solid #F23711;
+    border: 2px solid $main-blue;
+    background-color: $main-blue;
     padding: 1px;
-    
-
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0px 5px 5px 5px;
     h4,
     h3 {
       color: white;

@@ -11,7 +11,7 @@ angular.module('skyStream')
   }
 
   function getStreams () {
-    var url = 'https://api.twitch.tv/kraken/streams?&offset=25&stream_type=live&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&limit=24'
+    var url = 'https://api.twitch.tv/kraken/streams?&offset=6&stream_type=live&client_id=t0bygtv4nwlrifc9sigricr063nnt1x&limit=24'
     return $http.get(url)
     console.log('callingAPI')
   }
