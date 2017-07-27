@@ -17,7 +17,7 @@ angular.module('skyStream')
   }
 
   function getTopVideos () {
-    var url = 'https://api.twitch.tv/kraken/videos/top?&client_id=t0bygtv4nwlrifc9sigricr063nnt1x'
+    var url = 'https://api.twitch.tv/kraken/videos/top?limit=100&client_id=t0bygtv4nwlrifc9sigricr063nnt1x'
     return $http.get(url)
     console.log('callingAPI')
   }

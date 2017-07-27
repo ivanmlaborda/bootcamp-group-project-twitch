@@ -1,5 +1,5 @@
 angular.module('skyStream')
-  .controller('searchController', function ($scope, $rootScope/*, DataService */, $location) {
+  .controller('searchController', function ($scope, $rootScope , DataService , $location) {
     console.log('controller inside home working...')
     $scope.getQuery = function () {
       var query = $scope.query
