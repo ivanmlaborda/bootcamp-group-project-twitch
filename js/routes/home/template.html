@@ -14,11 +14,13 @@
               <div class="input-group">
                 <input type='text' id='search' class="form-control search-form" placeholder="Search for a game" ng-model="query">
                 <span class="input-group-addon">
-                  <input type="radio" name="radio" value="games" ng-model="queryRadio.radio"><i class="fa fa-gamepad" ng-checked="true"></i>
-                  <input type="radio" name="radio" value="streams" ng-model="queryRadio.radio"><i class="fa fa-video-camera"></i>
+                  <input type="radio" name="radio" value="games"  ng-checked="true" ng-model="queryRadio">
+                  <i class="fa fa-gamepad"></i>
+                  <input type="radio" name="radio" value="streams" ng-model="queryRadio">
+                  <i class="fa fa-video-camera"></i>
                 </span>
                 <span class="input-group-btn" style="width:100px">
-                  <button id="search-this" type="button" class="pull-right btn btn-default search-btn" ng-click="getQuery()">
+                  <button id="search-this" type="button" class="pull-right btn btn-default search-btn" ng-click="getQuery(queryRadio)">
                     <i class="glyphicon glyphicon-search"></i>
                   </button>
                 </div><!-- /input-group -->
