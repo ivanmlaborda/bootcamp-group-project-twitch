@@ -4,7 +4,6 @@ angular.module('skyStream')
     console.log('controller inside home working...')
     $scope.getQuery = function (queryRadio) {
       var query = $scope.query
-
       if (queryRadio === 'games') {
         $location.path('/search/games/' + query)
       } else if (queryRadio === 'streams') {
