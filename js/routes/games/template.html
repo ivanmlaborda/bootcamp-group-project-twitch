@@ -1,7 +1,11 @@
-<h2>GAMES</h2>
-<div class="games-grid">
-  <div ng-repeat="gameImg in gamesImgs | limitTo:30" class="game-item">
-    <h4>{{gameImg.game.name}}</h4>
-    <img ng-src="{{gameImg.game.box.large}}">
+<div class="games-container">
+  <div class="section-header">
+    <h2>{{section}}</h2>
+  </div>
+  <div class="games-grid">
+    <div ng-repeat="gameImg in gamesImgs | limitTo:30" class="game-item">
+      <h4>{{gameImg.game.name}}</h4>
+      <img ng-src="{{gameImg.game.box.large}}">
+    </div>
   </div>
 </div>

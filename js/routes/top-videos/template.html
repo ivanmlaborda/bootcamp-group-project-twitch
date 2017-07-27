@@ -1,28 +1,32 @@
-<h2>Top Videos</h2>
-<div class="videos-display">
-  <div ng-repeat="video in videos | limitTo:20" class="top-videos-item thumbnail">
-    <div class="caption">
-      <img ng-src="{{video.preview}}" alt="film-image"></img>
-      <h4>{{video.game}}</h4>
-      <button type="button" class="btn btn-primary btn-lg form-control modal-button" data-toggle="modal" data-target="#{{video.broadcast_id}}">Video</button>
-    </div>
-<!-- Modal -->
-<div  class="container modal fade game-modal" id="{{video.broadcast_id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">{{video.game}} </h4>
+<div class="streams-search-container">
+  <div class="section-header">
+    <h2>{{section}}</h2>
+  </div>
+  <div class="videos-display">
+    <div ng-repeat="video in videos | limitTo:20" class="top-videos-item thumbnail">
+      <div class="caption">
+        <img ng-src="{{video.preview}}" alt="film-image"></img>
+        <h4>{{video.game}}</h4>
+        <button type="button" class="btn btn-primary btn-lg form-control modal-button" data-toggle="modal" data-target="#{{video.broadcast_id}}">Video</button>
       </div>
-      <div class="modal-body">
-        <iframe ng-src="{{video._id}}" frameborder="0" allowfullscreen="true"></iframe>
+      <!-- Modal -->
+      <div class="container modal fade game-modal" id="{{video.broadcast_id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">{{video.game}} </h4>
+            </div>
+            <div class="modal-body">
+              <iframe ng-src="{{video._id}}" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
   </div>
+  <!-- /Modal -->
 </div>
-</div>
-</div>
-<!-- /Modal -->

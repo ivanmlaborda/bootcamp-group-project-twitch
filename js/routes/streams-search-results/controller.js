@@ -1,6 +1,7 @@
 angular.module('skyStream')
   .controller('streamsResultsController', function ($scope, $routeParams, DataService, $sce) {
     var stream = $routeParams.query
+    $scope.section = 'YOUR STREAMS RESULTS'
 
     DataService.searchStreams(stream)
       .then(function (oResponse) {

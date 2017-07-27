@@ -1,3 +1,11 @@
+/* --------------------- common --------------------------------*/
+.section-header {
+  margin-bottom: 20px; }
+  .section-header h2 {
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: #F6F6F6; }
+
 /* --------------------- navbarStyle --------------------------------*/
 .nav-style {
   background-color: #414858;
@@ -212,12 +220,11 @@ iframe {
   min-height: 300px; }
 
 /* --------------------- games --------------------------------*/
-.games-grid {
+.games-container .games-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.game-item {
+.games-container .game-item {
   margin: 25px; }
 
 /* --------------------- modal --------------------------------*/
