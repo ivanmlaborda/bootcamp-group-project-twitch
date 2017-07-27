@@ -5,21 +5,22 @@
   <div class="videos-display">
     <div ng-repeat="name in names | limitTo:6" class="top-videos-item thumbnail">
       <!-- <img ng-src="{{name.preview.large}}" alt="image"> -->
-      <iframe ng-src="{{name.channel.vUrl}}" frameborder="0" allowfullscreen="true"></iframe>
+      <img ng-src="{{name.preview.large}}" alt="film-image"></img>
       <div class="caption">
         <h4>{{name.channel.name}} <span>is playing</span></h4>
         <h3>{{name.channel.game}}</h3>
+        <button type="button" class="btn form-control modal-button" data-toggle="modal" data-target="#{{name._id}}">Video</button>
       </div>
       <!-- Modal -->
-      <div class="container modal fade game-modal" id="{{video.broadcast_id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="container modal fade game-modal" id="{{name._id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">{{video.game}} </h4>
+              <h4 class="modal-title" id="myModalLabel">{{name.game}} </h4>
             </div>
             <div class="modal-body">
-              <iframe ng-src="{{video._id}}" frameborder="0" allowfullscreen="true"></iframe>
+              <iframe ng-src="{{name.channel.vUrl}}" frameborder="0" allowfullscreen="true"></iframe>
             </div>
           </div>
           <div class="modal-footer">
