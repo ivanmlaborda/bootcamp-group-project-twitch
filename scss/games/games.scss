@@ -1,7 +1,11 @@
-.games-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
+.games-container {
+  .games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.game-item {
-  margin: 25px; }
+  .game-item {
+    margin: 25px;
+  }
+}
