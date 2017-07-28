@@ -7,11 +7,11 @@ angular.module('skyStream')
       var option = $scope.queryRadio.radio
       console.log(option)
       if (option === 'games') {
-        $location.path('/search/games/results/' + query)
+        $location.path('/search/games/' + query)
       } else if (option === 'streams') {
-        $location.path('/search/streams/results/' + query)
+        $location.path('/search/streams/' + query)
       } else {
-        $location.path('/search/games/results/' + query)
+        $location.path('/search/games/' + query)
       }
     }
   })
