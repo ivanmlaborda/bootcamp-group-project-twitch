@@ -1,0 +1,7 @@
+![img-example](https://raw.githubusercontent.com/ivanmlaborda/bootcamp-group-project-twitch/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.18.15.png)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.18.34.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.37.56.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.08.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.31.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.44.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.46.png?raw=true)
