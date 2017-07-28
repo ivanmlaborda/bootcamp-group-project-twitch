@@ -7,7 +7,7 @@ angular.module('skyStream')
       .then(function (oResponse) {
         console.log(oResponse)
         oResponse.data.streams.forEach(function (key) {
-          let url = 'https://player.twitch.tv/?channel=' + key.channel.name + '&autoplay=false'
+          var url = 'https://player.twitch.tv/?channel=' + key.channel.name + '&autoplay=false'
           key.channel.vUrl = $sce.trustAsResourceUrl(url)
         })
         $scope.names = oResponse.data.streams

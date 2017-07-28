@@ -18,7 +18,7 @@
                   <option value="games">Games<i class="fa fa-gamepad"></i></option>
                   <option value="streams">Streams<i class="fa fa-video-camera"></i></option>
                 </select>
-                <form>
+                <form ng-submit="getQuery()">
                   <input ng-model="query" type="text" class="form-control input-query" placeholder="Type you search!">
                   <button ng-click="getQuery()" class="btn-block form-control button-query" type="button"><i class="glyphicon glyphicon-search"></i>
                   </button>
