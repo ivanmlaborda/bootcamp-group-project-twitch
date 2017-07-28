@@ -6,7 +6,7 @@
 
 
 ## [SkyStream Web App](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/)
-DEMO :point_right: (https://ivanmlaborda.github.io/bootcamp-group-project-twitch/#!/)
+DEMO :point_right: https://ivanmlaborda.github.io/bootcamp-group-project-twitch/#!/
 
 This repository contains a Web App build with AngularJS framework, JS, HTML, CSS/SASS, and Bootstrap at [Skylab Coders Academy](http://www.skylabcoders.com/es/) Full Stack Web Development Bootcamp.
 
