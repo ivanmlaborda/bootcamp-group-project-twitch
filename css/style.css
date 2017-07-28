@@ -187,7 +187,6 @@ body {
   -webkit-box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44);
   -moz-box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44);
   box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44); }
-
   .top-videos-item h4, .top-videos-item h3 {
     color: white; }
 
@@ -273,7 +272,6 @@ button.btn.form-control.modal-button {
   div.top-videos-item {
 
     width: 450px;
-
     padding-top: 15px; }
 
   .videos-display div iframe {
