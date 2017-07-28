@@ -9,7 +9,7 @@
 
 This repository contains a Web App build with HTML, CSS ,JS and Angular at [Skylab Coders Academy](http://www.skylabcoders.com/es/) Full Stack Web Development Bootcamp.
 
-[SkyStream](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/) use the [TWITCH API](https://dev.twitch.tv/) to search for streams , top videso of the moment and games that they have.. All results will be shown indicating the name of the game, channel or video. 
+[SkyStream](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/) use the [TWITCH API](https://dev.twitch.tv/) to search for streams , top videos of the moment and games that they have.. All results will be shown indicating the name of the game, channel or video. 
 
 ![Screenshot](img/full-site.jpg)
 

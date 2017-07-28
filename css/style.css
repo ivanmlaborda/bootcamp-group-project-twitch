@@ -78,12 +78,7 @@ body {
     padding-top: 140px;
     text-align: center; }
   body #particles-js > div:nth-child(1) > div:nth-child(2) {
-<<<<<<< HEAD
     margin-top: 0px; }
-=======
-    margin-top: 0px;
-    margin-left: 20px; }
->>>>>>> de7397e44167da248e06f1cdfa3e789aab3e6c14
   body canvas {
     height: 100vh;
     z-index: -10;
@@ -188,14 +183,10 @@ body {
   margin: 25px;
   background-color: #0E9DD9;
   border: 1px solid #fff;
-<<<<<<< HEAD
   padding: 10px;
   -webkit-box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44);
   -moz-box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44);
   box-shadow: 3px 3px 17px 0px rgba(255, 255, 255, 0.44); }
-=======
-  padding: 10px; }
->>>>>>> de7397e44167da248e06f1cdfa3e789aab3e6c14
   .top-videos-item h4, .top-videos-item h3 {
     color: white; }
 
@@ -279,22 +270,14 @@ button.btn.form-control.modal-button {
     width: 100%; }
 
   div.top-videos-item {
-<<<<<<< HEAD
     width: 450px;
-=======
-    width: 400px;
->>>>>>> de7397e44167da248e06f1cdfa3e789aab3e6c14
     padding-top: 15px; }
 
   .videos-display div iframe {
     width: 100%; }
 
   .videos-display div img {
-<<<<<<< HEAD
     width: 410px; } }
-=======
-    width: 360px; } }
->>>>>>> de7397e44167da248e06f1cdfa3e789aab3e6c14
 @media (min-width: 768px) and (max-width: 1024px) {
   div.top-videos-item {
     width: 300px; }
