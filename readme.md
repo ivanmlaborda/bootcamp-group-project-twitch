@@ -9,9 +9,11 @@
 
 This repository contains a Web App build with HTML, CSS ,JS and Angular at [Skylab Coders Academy](http://www.skylabcoders.com/es/) Full Stack Web Development Bootcamp.
 
-[SkyStream](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/) use the [TWITCH API](https://dev.twitch.tv/) to search for streams , top videos of the moment and games that they have.. All results will be shown indicating the name of the game, channel or video. 
+[SkyStream](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/) use the [TWITCH API](https://dev.twitch.tv/) to search for streams , top videos of the moment and games that they have.. All results will be shown indicating the name of the game, channel or video.
 
-![Screenshot](img/full-site.jpg)
+![img-example](https://raw.githubusercontent.com/ivanmlaborda/bootcamp-group-project-twitch/master/readme-project/Captura%20de%20pantalla%202017-07-28%20a%20las%209.53.29.png)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-28%20a%20las%209.53.37.png?raw=true)
+![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-28%20a%20las%209.53.44.png?raw=true)
 
 ---
 
@@ -37,7 +39,7 @@ This repository contains a Web App build with HTML, CSS ,JS and Angular at [Skyl
 
 
 
-<!-- ![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.18.34.png?raw=true)
+<!-- ![img-example](https://raw.githubusercontent.com/ivanmlaborda/bootcamp-group-project-twitch/master/readme-project/Captura%20de%20pantalla%202017-07-28%20a%20las%209.53.29.png)
 ![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.37.56.png?raw=true)
 ![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.08.png?raw=true)
 ![img-example](https://github.com/ivanmlaborda/bootcamp-group-project-twitch/blob/master/readme-project/Captura%20de%20pantalla%202017-07-27%20a%20las%2017.38.31.png?raw=true)
