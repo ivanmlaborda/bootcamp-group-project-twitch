@@ -10,7 +10,7 @@ angular.module('skyStream')
       } else if (selection === 'streams') {
         $location.path('/search/streams/' + query)
       } else {
-        $location.path('/')
+        $location.path('/search/games/' + query)
       }
     }
   })
