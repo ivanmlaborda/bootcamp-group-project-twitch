@@ -6,8 +6,9 @@
 
 
 ## [SkyStream Web App](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/)
+DEMO :point_right: https://ivanmlaborda.github.io/bootcamp-group-project-twitch/#!/
 
-This repository contains a Web App build with HTML, CSS ,JS and Angular at [Skylab Coders Academy](http://www.skylabcoders.com/es/) Full Stack Web Development Bootcamp.
+This repository contains a Web App build with AngularJS framework, JS, HTML, CSS/SASS, and Bootstrap at [Skylab Coders Academy](http://www.skylabcoders.com/es/) Full Stack Web Development Bootcamp.
 
 [SkyStream](https://ivanmlaborda.github.io/bootcamp-group-project-twitch/) use the [TWITCH API](https://dev.twitch.tv/) to search for streams , top videos of the moment and games that they have.. All results will be shown indicating the name of the game, channel or video.
 
@@ -20,7 +21,7 @@ This repository contains a Web App build with HTML, CSS ,JS and Angular at [Skyl
 ### Authors:
 
 - [David Marin](https://github.com/ddmarin94)
-- [Ivan Laborda](https://github.com/ivanmlaborda)
+- [Ivan Martinez Laborda](https://github.com/ivanmlaborda)
 - [Gerard Carbonell](https://github.com/QIETE)
 
 ---

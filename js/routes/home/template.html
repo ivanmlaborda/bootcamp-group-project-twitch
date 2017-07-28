@@ -12,15 +12,15 @@
           <div id="content">
             <div class="container col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
               <div class="jumbotron">
-              <h3>Choose and option and search!</h3>
-                <select class="form-control query-select" ng-model="querySelect">
-                  <option value="" disabled>Choose games or streams</option>
-                  <option value="games">Games<i class="fa fa-gamepad"></i></option>
-                  <option value="streams">Streams<i class="fa fa-video-camera"></i></option>
-                </select>
-                <form>
-                  <input ng-model="query" type="text" class="form-control input-query" placeholder="Type you search!">
-                  <button ng-click="getQuery()" class="btn-block form-control button-query" type="button"><i class="glyphicon glyphicon-search"></i>
+                <h3>Choose and option and search!</h3>
+                <form ng-submit="getQuery()">
+                  <input ng-model="query" type="text" class="form-control input-query" placeholder="Type you search!" autofocus>
+                  <select class="form-control query-select" ng-model="querySelect">
+                    <option value="" disabled>Choose games or streams</option>
+                    <option value="games" ngSelected="true">Games<i class="fa fa-gamepad"></i></option>
+                    <option value="streams">Streams<i class="fa fa-video-camera"></i></option>
+                  </select>
+                  <button ng-click="getQuery()" class="btn-block form-control button-query" type="button"><i class="glyphicon glyphicon-search"></i>   Search
                   </button>
                 </form>
               </div>
